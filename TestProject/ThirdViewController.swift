@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ThirdViewController.swift
 //  TestProject
 //
 //  Created by Альбина on 12.02.2023.
@@ -8,13 +8,13 @@
 import UIKit
 import SnapKit
 
-class ViewController: UIViewController {
+class ThirdViewController: UIViewController {
     
     // MARK: -Outlets
     
     private lazy var button: UIButton = {
         let button = UIButton(type: .roundedRect)
-        button.backgroundColor = .systemBlue
+        button.backgroundColor = .systemPink
         button.setTitle("Press here", for: .normal)
         button.setTitleColor(UIColor.white, for: .normal)
         button.layer.cornerRadius = 25.0
@@ -31,7 +31,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemYellow
+        view.backgroundColor = .systemGray
         setupHerarchy()
         setupLayout()
     }
@@ -59,4 +59,3 @@ class ViewController: UIViewController {
         (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeViewController(viewController: SecondViewController(), animated: true, animationOptions: .transitionFlipFromBottom)
     }
 }
-

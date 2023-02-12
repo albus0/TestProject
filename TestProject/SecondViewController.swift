@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  TestProject
 //
 //  Created by Альбина on 12.02.2023.
@@ -8,13 +8,13 @@
 import UIKit
 import SnapKit
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
     
     // MARK: -Outlets
     
     private lazy var button: UIButton = {
         let button = UIButton(type: .roundedRect)
-        button.backgroundColor = .systemBlue
+        button.backgroundColor = .systemRed
         button.setTitle("Press here", for: .normal)
         button.setTitleColor(UIColor.white, for: .normal)
         button.layer.cornerRadius = 25.0
@@ -31,7 +31,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemYellow
+        view.backgroundColor = .systemBlue
         setupHerarchy()
         setupLayout()
     }
@@ -56,7 +56,7 @@ class ViewController: UIViewController {
     //MARK: -Actions
     
     @objc func buttonPressed() {
-        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeViewController(viewController: SecondViewController(), animated: true, animationOptions: .transitionFlipFromBottom)
+        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeViewController(viewController: ThirdViewController(), animated: true, animationOptions: .transitionFlipFromLeft)
     }
 }
 
