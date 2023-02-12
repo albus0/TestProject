@@ -15,6 +15,7 @@
 		B18E3DCB2998ED7300696E94 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B18E3DCA2998ED7300696E94 /* SnapKit */; };
 		B18E3DCF2998F57B00696E94 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18E3DCE2998F57B00696E94 /* SecondViewController.swift */; };
 		B18E3DD12998F88A00696E94 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18E3DD02998F88A00696E94 /* ThirdViewController.swift */; };
+		B18E3DD32999005500696E94 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18E3DD22999005500696E94 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		B18E3DC32998E7B800696E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B18E3DCE2998F57B00696E94 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B18E3DD02998F88A00696E94 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		B18E3DD22999005500696E94 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				B18E3DC32998E7B800696E94 /* Info.plist */,
 				B18E3DCE2998F57B00696E94 /* SecondViewController.swift */,
 				B18E3DD02998F88A00696E94 /* ThirdViewController.swift */,
+				B18E3DD22999005500696E94 /* TabBarController.swift */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				B18E3DCF2998F57B00696E94 /* SecondViewController.swift in Sources */,
 				B18E3DBA2998E7B800696E94 /* ViewController.swift in Sources */,
 				B18E3DD12998F88A00696E94 /* ThirdViewController.swift in Sources */,
+				B18E3DD32999005500696E94 /* TabBarController.swift in Sources */,
 				B18E3DB62998E7B800696E94 /* AppDelegate.swift in Sources */,
 				B18E3DB82998E7B800696E94 /* SceneDelegate.swift in Sources */,
 			);
