@@ -16,6 +16,10 @@
 		B18E3DCF2998F57B00696E94 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18E3DCE2998F57B00696E94 /* SecondViewController.swift */; };
 		B18E3DD12998F88A00696E94 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18E3DD02998F88A00696E94 /* ThirdViewController.swift */; };
 		B18E3DD32999005500696E94 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18E3DD22999005500696E94 /* TabBarController.swift */; };
+		B18E3DD6299902C700696E94 /* FirstTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18E3DD5299902C700696E94 /* FirstTabBarViewController.swift */; };
+		B18E3DD8299903AE00696E94 /* SecondTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18E3DD7299903AE00696E94 /* SecondTabBarViewController.swift */; };
+		B18E3DDA299903D700696E94 /* ThirdTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18E3DD9299903D700696E94 /* ThirdTabBarViewController.swift */; };
+		B18E3DDC2999040700696E94 /* FourthTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18E3DDB2999040700696E94 /* FourthTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		B18E3DCE2998F57B00696E94 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B18E3DD02998F88A00696E94 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		B18E3DD22999005500696E94 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B18E3DD5299902C700696E94 /* FirstTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabBarViewController.swift; sourceTree = "<group>"; };
+		B18E3DD7299903AE00696E94 /* SecondTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabBarViewController.swift; sourceTree = "<group>"; };
+		B18E3DD9299903D700696E94 /* ThirdTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabBarViewController.swift; sourceTree = "<group>"; };
+		B18E3DDB2999040700696E94 /* FourthTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +78,21 @@
 				B18E3DC32998E7B800696E94 /* Info.plist */,
 				B18E3DCE2998F57B00696E94 /* SecondViewController.swift */,
 				B18E3DD02998F88A00696E94 /* ThirdViewController.swift */,
-				B18E3DD22999005500696E94 /* TabBarController.swift */,
+				B18E3DD4299901CE00696E94 /* TabBarControllers */,
 			);
 			path = TestProject;
+			sourceTree = "<group>";
+		};
+		B18E3DD4299901CE00696E94 /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B18E3DD22999005500696E94 /* TabBarController.swift */,
+				B18E3DD5299902C700696E94 /* FirstTabBarViewController.swift */,
+				B18E3DD7299903AE00696E94 /* SecondTabBarViewController.swift */,
+				B18E3DD9299903D700696E94 /* ThirdTabBarViewController.swift */,
+				B18E3DDB2999040700696E94 /* FourthTabBarViewController.swift */,
+			);
+			path = TabBarControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,8 +174,12 @@
 				B18E3DCF2998F57B00696E94 /* SecondViewController.swift in Sources */,
 				B18E3DBA2998E7B800696E94 /* ViewController.swift in Sources */,
 				B18E3DD12998F88A00696E94 /* ThirdViewController.swift in Sources */,
+				B18E3DDA299903D700696E94 /* ThirdTabBarViewController.swift in Sources */,
+				B18E3DD6299902C700696E94 /* FirstTabBarViewController.swift in Sources */,
+				B18E3DD8299903AE00696E94 /* SecondTabBarViewController.swift in Sources */,
 				B18E3DD32999005500696E94 /* TabBarController.swift in Sources */,
 				B18E3DB62998E7B800696E94 /* AppDelegate.swift in Sources */,
+				B18E3DDC2999040700696E94 /* FourthTabBarViewController.swift in Sources */,
 				B18E3DB82998E7B800696E94 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
